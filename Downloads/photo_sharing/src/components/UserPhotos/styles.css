@@ -1,0 +1,31 @@
+.comment{
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-detail{
+    margin-top: 20px;
+}
+
+.cmt-date{
+    font-style: italic;
+}
+
+.cmt-user{
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.comment{
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.comment span{
+    margin-top: 5px;
+}
+
+.photos-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
