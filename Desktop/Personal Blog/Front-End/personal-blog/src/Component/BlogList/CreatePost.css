@@ -1,0 +1,48 @@
+.create-post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cp-title{
+    text-align: center;
+}
+
+.create-post-container{
+    color: var(--normal-text);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 30px;
+    background-color: var(--bg-opacity-05);
+    padding: 15px;
+    box-shadow: 0 0 10px #434443;
+}
+
+.create-post-container input, .create-post-container textarea{
+    width: 100%;
+    margin: 5px 0;
+}
+
+.title-label{
+    font-weight: bold;
+}
+
+.create-post-container .text-inp{
+    font-style: italic;
+    padding: 5px;
+}
+
+.backward{
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.backward-icon{
+    font-size: 2rem;
+    color: var(--normal-text);
+}
